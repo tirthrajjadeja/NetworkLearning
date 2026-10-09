@@ -1,1 +1,51 @@
 /* Website styles */
+body{
+    margin:0;
+    padding:0;
+    background:#ffffff;
+    color:#1d1d1f;
+    font-family:'JetBrains Mono', monospace;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 80px;
+    border-bottom:1px solid #f0f0f0;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:700;
+}
+
+ul{
+    display:flex;
+    gap:30px;
+    list-style:none;
+}
+
+a{
+    text-decoration:none;
+    color:#1d1d1f;
+}
+
+.hero{
+    text-align:center;
+    padding:150px 20px;
+}
+
+.hero h1{
+    font-size:70px;
+    margin-bottom:20px;
+}
+
+.tagline{
+    font-size:24px;
+    color:#0071e3;
+}
+
+.page{
+    padding:80px;
+}
